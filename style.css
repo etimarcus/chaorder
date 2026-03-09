@@ -155,7 +155,7 @@ nav {
 }
 .nebula-text {
   position: absolute;
-  bottom: 15%;
+  top: 5%;
   left: 0;
   right: 0;
   z-index: 2;
@@ -163,11 +163,12 @@ nav {
   padding: 0 2rem;
 }
 .nebula-text p {
-  font-family: var(--font-body);
-  font-size: 1.3rem;
-  font-weight: 600;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 400;
   color: #ffffff;
-  line-height: 2;
+  line-height: 2.2;
+  letter-spacing: 0.02em;
   text-shadow: 0 2px 20px rgba(0, 0, 0, 0.8);
 }
 
@@ -380,6 +381,6 @@ footer {
 
 @media (max-width: 480px) {
   h2 { font-size: 1.5rem; }
-  .nebula-text p { font-size: 0.85rem; }
+  .nebula-text p { font-size: 0.75rem; }
   blockquote { padding: 1.2rem 1.5rem; font-size: 1rem; }
 }
