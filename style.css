@@ -88,14 +88,23 @@ nav {
   padding: 6rem 2rem;
   position: relative;
   overflow: hidden;
+  background: url('img/nebula.png') center center / cover no-repeat fixed;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 15, 26, 0.75);
+  z-index: 0;
 }
 
 .hero-glow {
   position: absolute;
+  z-index: 0;
   width: 600px;
   height: 600px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(232, 146, 58, 0.06) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(232, 146, 58, 0.08) 0%, transparent 70%);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
