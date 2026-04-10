@@ -88,9 +88,27 @@ nav {
 .hero-logo {
   padding: 0.5rem 2rem 0;
 }
-.hero-logo img {
+.hero-logo-crop {
   max-width: 500px;
   width: 100%;
+  margin: 0 auto;
+  aspect-ratio: 2.5 / 1;
+  overflow: hidden;
+}
+.hero-logo-crop img {
+  width: 100%;
+  display: block;
+}
+.hero-title {
+  max-width: 500px;
+  margin: 0.5rem auto 0;
+  font-family: var(--font-body);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-align: center;
+  letter-spacing: 0.32em;
+  white-space: nowrap;
 }
 
 .hero-text {
@@ -375,7 +393,8 @@ footer {
   .nav-toggle { display: block; }
   .columns { grid-template-columns: 1fr; gap: 2rem; }
   .cards { grid-template-columns: 1fr; }
-  .hero-logo img { max-width: 300px; }
+  .hero-logo-crop { max-width: 300px; }
+  .hero-title { max-width: 300px; font-size: 1.2rem; letter-spacing: 0.28em; }
   .section { padding: 3.5rem 1.5rem; }
 }
 
