@@ -83,6 +83,7 @@ nav {
   background: #000;
   text-align: center;
   padding-top: 30px;
+  padding-bottom: 5rem;
 }
 
 .hero-logo {
@@ -100,14 +101,14 @@ nav {
   display: block;
 }
 .hero-title {
-  max-width: 500px;
-  margin: 0.5rem auto 0;
+  max-width: 365px;
+  margin: 0.75rem auto 0;
   font-family: var(--font-body);
-  font-size: 2rem;
+  font-size: 1.55rem;
   font-weight: 600;
   color: var(--accent);
   text-align: center;
-  letter-spacing: 0.32em;
+  letter-spacing: 0.2em;
   white-space: nowrap;
 }
 
@@ -144,6 +145,8 @@ nav {
 /* Nebula divider */
 .nebula-divider {
   position: relative;
+  margin-top: 20vh;
+  background: #000;
 }
 .nebula-divider img {
   width: 100%;
@@ -394,7 +397,7 @@ footer {
   .columns { grid-template-columns: 1fr; gap: 2rem; }
   .cards { grid-template-columns: 1fr; }
   .hero-logo-crop { max-width: 300px; }
-  .hero-title { max-width: 300px; font-size: 1.2rem; letter-spacing: 0.28em; }
+  .hero-title { max-width: 220px; font-size: 0.95rem; letter-spacing: 0.18em; }
   .section { padding: 3.5rem 1.5rem; }
 }
 
