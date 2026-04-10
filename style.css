@@ -116,10 +116,11 @@ nav {
   font-family: var(--font-body);
   font-size: 0.75rem;
   font-weight: 700;
-  color: var(--text-muted);
+  color: #ffffff;
   text-align: center;
   letter-spacing: 0.25em;
   text-transform: uppercase;
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.5), 0 0 14px rgba(255, 255, 255, 0.25);
 }
 
 .hero-text {
@@ -197,7 +198,7 @@ nav {
   font-family: var(--font-display);
   font-size: 1.1rem;
   font-weight: 600;
-  color: #949494;
+  color: #707070;
   line-height: 2.2;
   letter-spacing: 0.02em;
   text-shadow: 0 2px 20px rgba(0, 0, 0, 0.8);
