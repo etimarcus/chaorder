@@ -46,14 +46,16 @@ nav {
 }
 
 .nav-brand {
-  font-family: var(--font-body);
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--accent);
+  display: inline-flex;
+  align-items: center;
   text-decoration: none;
-  letter-spacing: 0.25em;
 }
-.nav-brand:hover { color: var(--accent-light); }
+.nav-brand img {
+  height: 32px;
+  width: auto;
+  display: block;
+}
+.nav-brand:hover img { opacity: 0.85; }
 
 .nav-links {
   list-style: none;
