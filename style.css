@@ -51,8 +51,8 @@ nav {
   text-decoration: none;
 }
 .nav-brand img {
-  height: 42px;
-  width: auto;
+  height: 48px;
+  width: 48px;
   display: block;
 }
 .nav-brand:hover img { opacity: 0.85; }
