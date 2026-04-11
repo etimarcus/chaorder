@@ -116,7 +116,7 @@ nav {
 .hero-subtitle {
   margin: 0.6rem auto 0;
   font-family: var(--font-body);
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   font-weight: 700;
   color: #ffffff;
   text-align: center;
@@ -136,7 +136,8 @@ nav {
   margin: 2rem auto 3rem;
   padding: 0 2rem;
   text-align: center;
-  color: #b8b8b8;
+  color: #e8d8a8;
+  font-style: italic;
   font-size: 0.95rem;
   line-height: 1.9;
 }
