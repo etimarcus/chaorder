@@ -335,6 +335,20 @@ h3 {
 .timeline-content a {
   font-size: 0.85rem;
 }
+.timeline-content .pending {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 0.2rem;
+}
+.timeline-content .pending em {
+  font-style: normal;
+  color: var(--accent);
+  margin-left: 0.4rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
 
 /* Blockquote */
 blockquote {
